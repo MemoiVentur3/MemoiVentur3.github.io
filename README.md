@@ -1,55 +1,28 @@
-#### MemoiVenture Website
+Welcome!
 
-### Contributor Guidelines
+===============================
 
-- Be respectful and considerate of others. Harassment, trolling, or any form of harmful behavior will not be tolerated.
+Here is the official MintyPlex Landing Page 
 
-### Getting Started
+===============================
 
-1. Fork the repository to your GitHub account.
-2. Clone the forked repository to your local development environment.
-3. Set up the development environment by following the instructions in the `Instructions.md`.
+Note:
+All work done here please do not make edits on the src/app.js file (any changes made should be reverted whenever you are pushing).
+
+Feel free to install whatever package ypu want to make use of.
+
+Deadline will be 18th, i wont pressure anyone but put your best into this.
+
+Create your task(component) in the src/components folder.
+
+All assets in src/assets folder.
+
+Also responsive design isint available yet if you have an idea that works well make it up, will be appreciated.
+
+Branches should be created in the name of the tast eg. (MET-2, MET-3).
+
+This will be cleared after the whole development.
 
 
-### Issue Tracking
-
-- Check the existing GitHub issues to find tasks you'd like to work on or suggest new ones.
-- Before creating a new issue, search for similar ones to avoid duplicates.
-
-### Code Style and Standards
-
-- Adhere to the project's coding standards and style guidelines (link to your style guide here).
-
-### Pull Request Process
-
-1. Make sure your changes are in a separate branch and are based on the latest `main` branch.
-2. Use descriptive pull request titles (e.g., "Fix issue #123: Description of the fix").
-3. Provide a detailed description of the changes in the pull request description.
-4. Follow any provided pull request template or checklist.
-5. After opening a pull request, our team will review your changes and provide feedback.
-
-### Code Review Process
-
-- Code reviews are conducted by project maintainers.
-- Reviewers will provide constructive feedback to help improve your contributions.
-
-### Testing and Quality Assurance
-
-- Write tests to cover your code changes and ensure existing tests pass.
-- Verify that your changes don't introduce new bugs.
-
-### Recognition and Prizes (for competition)
-
-- 1ST PLACE $50
-- 2ND PLACE $30
-- 3RD PLACE $20
-
-### Final Submission Deadline
-
-- The competition deadline is 21st August 2023.
-
-### Contact Information
-
-- For questions or clarifications, reach out to elisha@memoiventure.com .
-
-Thank you for your contributions, and happy coding!
+https://www.figma.com/proto/W6hTDK2IpVKENKO8TFbn8f/Mintyplex-Landing-Page?page-id=0%3A1&node-id=87%3A80&viewport=1901%2C-3049%2C0.8&scaling=min-zoom
+Thanks :) 
