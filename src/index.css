@@ -1,0 +1,289 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* fonts */
+@font-face {
+    font-family: headers;
+    src: url(../src/assets/Fonts/STRRETCH\ SANS.otf);
+}
+
+@font-face {
+    font-family: general;
+    src: url(../src//assets//Fonts//LexendTera-Regular.ttf);
+}
+
+@font-face {
+    font-family: pages;
+    src: url(../src/assets/Fonts/KronaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: s-headers;
+    src: url(../src/assets/Fonts/LexendTera-ExtraBold.ttf);
+}
+
+h1{
+    font-family: headers;
+}
+
+p{
+    font-family: general;
+}
+
+.service-headers{
+    font-family: s-headers;
+}
+
+.pages-font{
+    font-family: pages !important;
+}
+
+body::-webkit-scrollbar{
+    width: 2px;
+}
+body::-webkit-scrollbar-thumb{
+    width: 2px;
+    background: #1E3A8A;
+}
+
+.service-progress,.bootcamp-progress{
+    border: 1px solid white;
+    width: 100%;
+    height: 7px;
+    position: relative;
+}
+.service-progress::after{
+    content: '';
+    width: 50%;
+    background: white;
+    height: 100%;
+    position: absolute;
+}
+.bootcamp-progress::after{
+    content: '';
+    width: 100%;
+    background: white;
+    height: 100%;
+    position: absolute;
+}
+
+.img{
+    object-fit: cover;
+}
+
+.inp:focus{
+    border: none !important;
+}
+.inp:-moz-focusring{
+    border: none;
+}
+
+.inp::placeholder{
+    color: red !important;
+}
+
+/* overridden mui btn classes */
+
+.nav-btn{
+    border-radius: 50px !important;
+    padding: 8px 5% !important;
+    background: transparent !important;
+    border: 2px solid white !important;
+    text-transform: initial !important;
+    /* font-weight: 600 !important; */
+    font-size: 16px !important;
+    display: flex !important;
+    gap: 10px;
+}
+.nav-link{
+    height: 100%;
+    background-color: red;
+}
+.nav-link:hover{
+    border-bottom: 2px solid white;
+    transition: ease-in .3s;
+}
+
+.hero-btn{
+    border-radius: 10px !important;
+    padding: 8px 8% !important;
+    background: #1E3A8A !important;
+    border: 2px solid white !important;
+    text-transform: initial !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+}
+
+.contained-lg-btn{
+    border-radius: 20px !important;
+    padding: 8px 10% !important;
+    background: white !important;
+    color: #1E3A8A !important;
+    text-transform: initial !important;
+    font-weight: 700 !important;
+}
+
+.outlined-lg-btn{
+    border-radius: 30px !important;
+    padding: 8px 5% !important;
+    font-size: 16px !important;
+    background: transparent !important;
+    border: 3px solid #3b83f6e9 !important;
+    text-transform: initial !important;
+    font-weight: 500 !important;
+    margin-top: 64px !important;
+    font-weight: 700 !important;
+}
+
+/* input */
+.subscribe-inp{
+    border-radius: 12px !important;
+    background: white !important;
+    font-size: 16px !important;
+}
+.subscribe-inp::-moz-focus-outer{
+    border: none !important;
+}
+
+/* swiper */
+.swiper-pagination-bullet{
+    background-color: transparent !important;
+    border: 5px solid white;
+    padding: .2rem;
+}
+.swiper-pagination-bullet-active {
+    transition: all .2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    background: white;
+
+}
+
+.incubator::after {
+    content: '';
+    background: url("./assets/incubator.jpg");
+    background-position: center center;
+    border-radius: 50px;
+    background-size: cover;
+    align-self: center;
+    justify-self: center;
+    height: 400px;
+    margin: -10px;
+    width: 70%;
+    transform: translateY(80%);
+    position: absolute;
+    /* right: 10px; */
+
+    z-index: 0;
+  }
+
+.inp{
+    border: 2px solid white !important;
+    border-radius: 10px !important;
+    padding: 7px !important;
+    color: white !important;
+}
+
+.footer-inp{
+    border-radius: 10px !important;
+    padding: 7px 24px !important;
+    color: black !important;
+    background: white !important;
+    color: black !important;
+}
+
+.inp::placeholder{
+    color: red !important;
+}
+
+.location-icon-btn:hover{
+    background: rgb(29 78 216 ) !important;
+}
+
+
+.timelineDot{
+    /* border: 5; */
+    background: rgb(29 78 216 ) !important;
+    box-shadow: 3px 0px 40px 17px rgb(29 78 216 ) !important;
+}
+
+.box-shadow{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;}
+
+.obj-background{
+    background: linear-gradient(#1e3b8aaf, #1E3A8A), url("./assets/Main/ObjectivePlaceholder.webp") center/cover, #1E3A8A;
+}
+.hero-img-holder{
+    background: url("./assets/Main/HeroImage.webp") right/cover;
+}
+.bg-main{
+    background: url("./assets/Main/BGG.webp") center/cover;
+}
+.bg-joinUs{
+    background: linear-gradient(#1e3b8aaf, #1E3A8A), url("./assets/Main/JoinusPlaceholder.webp") left/cover, #1E3A8A;
+
+}
+
+/* loader */
+.loader-container{
+    height: 100vh;
+    width: 100%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loader {
+    width: 48px;
+    height: 48px;
+    position: relative;
+  }
+  .loader::before , .loader::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    width: 48em;
+    height: 48em;
+    background-image:
+      radial-gradient(circle 10px, #1E3A8A 100%, transparent 0),
+      radial-gradient(circle 10px, #1E3A8A 100%, transparent 0),
+      radial-gradient(circle 10px, #1E3A8A 100%, transparent 0),
+      radial-gradient(circle 10px, #1E3A8A 100%, transparent 0),
+      radial-gradient(circle 10px, #1E3A8A 100%, transparent 0),
+      radial-gradient(circle 10px, #1E3A8A 100%, transparent 0),
+      radial-gradient(circle 10px, #1E3A8A 100%, transparent 0),
+      radial-gradient(circle 10px, #1E3A8A 100%, transparent 0);
+    background-position: 0em -18em, 0em 18em, 18em 0em, -18em 0em,
+                         13em -13em, -13em -13em, 13em 13em, -13em 13em;
+      background-repeat: no-repeat;
+    font-size: 0.5px;
+    border-radius: 50%;
+    animation: blast 1s ease-in infinite;
+  }
+  .loader::after {
+    font-size: 1px;
+    background: #1E3A8A;
+    animation: bounce 1s ease-in infinite;
+  }
+  
+  @keyframes bounce {
+    0% , 100%{ font-size: 0.75px }
+    50% { font-size: 1.5px }
+  }
+  @keyframes blast {
+    0% , 40% {
+      font-size: 0.5px;
+    }
+    70% {
+      opacity: 1;
+      font-size: 4px;
+    }
+     100% {
+       font-size: 6px;
+      opacity: 0;
+    }
+  }
