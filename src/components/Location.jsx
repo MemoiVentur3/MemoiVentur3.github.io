@@ -11,15 +11,15 @@ import NearMeIcon from '@mui/icons-material/NearMe';
 const Location = () => {
     return (
         <div className='flex flex-col items-center justify-center p-8'>
-            <h1 className='font-semibold lg:text-5xl md:text-4xl text-3xl text-[#1E3A8A]'>Our Location</h1>
+            <h1 className='font-extrabold  lg:text-5xl md:text-5xl text-4xl text-[#130395]'>Our Location</h1>
             <div className='flex items-center justify-center gap-16 w-full mt-8'>
                 <div className='col-span-1 grid lg:grid-cols-1 items-start justify-around h-[600px]'>
                     <div className='flex items-start gap-2'>
                         {/* icon */}
-                        <IconButton sx={{ background: '#1E3A8A', color: 'white', }} className='location-icon-btn h-[60px] w-[60px] bg-[#1E3A8A]'>
+                        <IconButton sx={{ background: '#130395', color: 'white', }} className='location-icon-btn h-[60px] w-[60px] bg-[#130395]'>
                             <HomeWorkIcon sx={{ fontSize: '24px' }} />
                         </IconButton>
-                        <div className='flex flex-col gap-2 text-[#1E3A8A]'>
+                        <div className='flex flex-col gap-2 text-[#130395]'>
                             <div className='flex flex-col'>
                                 <p className='pages-font text-xl font-semibold'>OFFICE</p>
                                 <p className='pages-font text-xl font-semibold'>HEADQUARTERS</p>
@@ -36,10 +36,10 @@ const Location = () => {
                     </div>
                     <div className='flex items-start gap-2'>
                         {/* icon */}
-                        <IconButton sx={{ background: '#1E3A8A', color: 'white', }} className='location-icon-btn h-[60px] w-[60px] bg-[#1E3A8A]'>
+                        <IconButton sx={{ background: '#130395', color: 'white', }} className='location-icon-btn h-[60px] w-[60px] bg-[#130395]'>
                             <FlagOutlinedIcon sx={{ fontSize: '24px' }} />
                         </IconButton>
-                        <div className='flex flex-col gap-2 text-[#1E3A8A]'>
+                        <div className='flex flex-col gap-2 text-[#130395]'>
                             <div className='flex flex-col'>
                                 <p className='pages-font text-xl font-semibold'>BOOTCAMP</p>
                                 <p className='pages-font text-xl font-semibold'>LOCATION</p>
@@ -55,10 +55,10 @@ const Location = () => {
                     </div>
                     <div className='flex items-start gap-2'>
                         {/* icon */}
-                        <IconButton sx={{ background: '#1E3A8A', color: 'white', }} className='location-icon-btn h-[60px] w-[60px] bg-[#1E3A8A]'>
+                        <IconButton sx={{ background: '#130395', color: 'white', }} className='location-icon-btn h-[60px] w-[60px] bg-[#130395]'>
                             <ApartmentOutlinedIcon sx={{ fontSize: '24px' }} />
                         </IconButton>
-                        <div className='flex flex-col gap-2 text-[#1E3A8A]'>
+                        <div className='flex flex-col gap-2 text-[#130395]'>
                             <div className='flex flex-col'>
                                 <p className='pages-font text-xl font-semibold'>BRANCH</p>
                                 <p className='pages-font text-xl font-semibold'>OFFICE</p>

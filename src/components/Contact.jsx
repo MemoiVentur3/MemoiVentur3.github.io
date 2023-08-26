@@ -15,7 +15,7 @@ const Contact = () => {
                     <Fade bottom><h1 className='font-semibold lg:text-5xl md:text-4xl text-3xl text-white'>in mind ?</h1></Fade>
                 </div>
                 <div className=' text-center text-white text-sm'>
-                    <p className='pages-font'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, nisi hic iure, libero ipsam provident animi aperiam cupiditate fugit itaque eum fuga eos dolores voluptas aut odit. Quasi, amet commodi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde praesentium sapiente optio quisquam deserunt laborum consequatur, explicabo vel sint consectetur asperiores ducimus! Nostrum, minus voluptatum? Facilis et vel nobis dolorum.</p>
+                    <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, nisi hic iure, libero ipsam provident animi aperiam cupiditate fugit itaque eum fuga eos dolores voluptas aut odit. Quasi, amet commodi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde praesentium sapiente optio quisquam deserunt laborum consequatur, explicabo vel sint consectetur asperiores ducimus! Nostrum, minus voluptatum? Facilis et vel nobis dolorum.</p>
                 </div>
             </div>
             <div className='w-full flex items-center justify-center mt-8 '>
@@ -27,7 +27,7 @@ const Contact = () => {
                     <div className='flex flex-col col-span-2 '>
                         <div className='flex flex-col gap-1 p-4'>
                             <h1 className='lg:text-4xl text-3xl font-semibold'>Form</h1>
-                            <p className='pages-font text-xs text-white'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit nihil nemo odio voluptas iure sequi id ex soluta, qui obcaecati blanditiis dolore inventore commodi labore accusamus optio tempore harum quo?</p>
+                            <p className='pages-font text-sm text-white'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit nihil nemo odio voluptas iure sequi id ex soluta, qui obcaecati blanditiis dolore inventore commodi labore accusamus optio tempore harum quo?</p>
                         </div>
                         <form action="" className='pages-font flex flex-col items-start  gap-2 p-4'>
                             <TextField className='inp w-[100%]' id="filled-basic" placeholder="Name" variant="standard" InputProps={{ disableUnderline: true }} sx={{ input: { color: 'white' } }} />

@@ -15,25 +15,25 @@ import Logo from '../assets/Buttons/logo.png'
 
 const PagesFooter = () => {
     return (
-        <div className='bg-[#1E3A8A] mt-2 px-4 lg:px-24 py-8'>
+        <div className='bg-[#130395] mt-2 px-4 lg:px-24 py-8'>
             <div className='flex flex-col justify-center lg:items-end w-full px-4 gap-4  lg:py-8 lg:px-24 pb-4'>
                 <div className='lg:flex items-center justify-between grid grid-cols-2  gap-3 w-[100%] text-white'>
-                    <div className='flex flex-col items-center gap-3'>
-                        <h1 className=' pages-font font-semibold'>About Us</h1>
-                        <p className='pages-font cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Mission</p>
-                        <p className='pages-font cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Vision</p>
-                        <p className='pages-font cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Team</p>
+                    <div className='flex flex-col items-start gap-3'>
+                        <h1 className='text-xl'>Support</h1>
+                        <p className=' cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Mission</p>
+                        <p className=' cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Vision</p>
+                        <p className=' cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Team</p>
                     </div>
-                    <div className='flex flex-col items-center gap-3'>
-                        <h1 className='pages-font font-semibold '>Discover</h1>
-                        <Link to='/blog'><p className='pages-font cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Blog</p></Link>
-                        <Link to='/service'><p className='pages-font cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Services</p></Link>
-                        <p className='pages-font cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Knowledge</p>
+                    <div className='flex flex-col items-start gap-3'>
+                        <h1 className=' text-xl '>Discover</h1>
+                        <Link to='/blog'><p className=' cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Blog</p></Link>
+                        <Link to='/service'><p className=' cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Services</p></Link>
+                        <p className=' cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Knowledge</p>
                     </div>
-                    <div className='flex flex-col items-center gap-3'>
-                        <h1 className='pages-font font-semibold '>Support</h1>
-                        <p className='pages-font cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>FAQs</p>
-                        <Link to='/contact'><p className='pages-font cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Contact</p></Link>
+                    <div className='flex flex-col items-start gap-3'>
+                        <h1 className=' text-xl '>Support</h1>
+                        <p className=' cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>FAQs</p>
+                        <Link to='/contact'><p className=' cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Contact</p></Link>
 
                     </div>
                 </div>

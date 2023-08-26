@@ -22,7 +22,7 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className='bg-[#1E3A8A] sticky top-0 backdrop-blur-sm z-50'>
+    <div className='bg-[#130395] sticky top-0 backdrop-blur-sm z-50'>
       <div className='container mx-auto text-white px-[16px] '>
         <div className='py-2 justify-between items-center hidden md:flex'>
           {/* logo */}
@@ -46,7 +46,7 @@ export default function Navbar() {
         <div className='md:hidden py-4 justify-between flex items-center'>
           {/* mobile logo */}
           <Link to='/'>
-            <img className='w-[50px]' src={Logo} alt="" />
+            <img className='w-[30px]' src={Logo} alt="" />
           </Link>
           
           {mobileMenuOpen === (true) ? (
@@ -65,7 +65,7 @@ export default function Navbar() {
             ))}
           </div>
           <Link className='px-2' to='/contact' >
-            <img src={contactBtn} className='w-[150px]' alt="" />
+            <img  src={contactBtn} className='w-[150px]' alt="" />
           </Link>
         </div>}
 
