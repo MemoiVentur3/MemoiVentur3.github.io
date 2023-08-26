@@ -5,17 +5,17 @@
 /* fonts */
 @font-face {
     font-family: headers;
-    src: url(../src/assets/Fonts/STRRETCH\ SANS.otf);
+    src: url(../src/assets/Fonts/Ubuntu/Ubuntu-Bold.ttf);
 }
 
 @font-face {
     font-family: general;
-    src: url(../src//assets//Fonts//LexendTera-Regular.ttf);
+    src: url(../src//assets//Fonts/freesans/FreeSansBold.otf);
 }
 
 @font-face {
     font-family: pages;
-    src: url(../src/assets/Fonts/KronaOne-Regular.ttf);
+    src: url(../src/assets/Fonts/freesans/FreeSansBold.ttf);
 }
 
 @font-face {
@@ -44,7 +44,7 @@ body::-webkit-scrollbar{
 }
 body::-webkit-scrollbar-thumb{
     width: 2px;
-    background: #1E3A8A;
+    background: #130395;
 }
 
 .service-progress,.bootcamp-progress{
@@ -108,7 +108,7 @@ body::-webkit-scrollbar-thumb{
 .hero-btn{
     border-radius: 10px !important;
     padding: 8px 8% !important;
-    background: #1E3A8A !important;
+    background: #130395 !important;
     border: 2px solid white !important;
     text-transform: initial !important;
     font-weight: 600 !important;
@@ -122,7 +122,7 @@ body::-webkit-scrollbar-thumb{
     border-radius: 20px !important;
     padding: 8px 10% !important;
     background: white !important;
-    color: #1E3A8A !important;
+    color: #130395 !important;
     text-transform: initial !important;
     font-weight: 700 !important;
 }
@@ -132,7 +132,8 @@ body::-webkit-scrollbar-thumb{
     padding: 8px 5% !important;
     font-size: 16px !important;
     background: transparent !important;
-    border: 3px solid #3b83f6e9 !important;
+    border: 3px solid #130395 !important;
+    color: #130395 !important;
     text-transform: initial !important;
     font-weight: 500 !important;
     margin-top: 64px !important;
@@ -199,7 +200,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .location-icon-btn:hover{
-    background: rgb(29 78 216 ) !important;
+    background: #04BCD4 !important;
 }
 
 
@@ -213,16 +214,16 @@ body::-webkit-scrollbar-thumb{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;}
 
 .obj-background{
-    background: linear-gradient(#1e3b8aaf, #1E3A8A), url("./assets/Main/ObjectivePlaceholder.webp") center/cover, #1E3A8A;
+    background: linear-gradient(#1e3b8aaf, #130395), url("./assets/Main/ObjectivePlaceholder.webp") center/cover, #130395;
 }
 .hero-img-holder{
     background: url("./assets/Main/HeroImage.webp") right/cover;
 }
 .bg-main{
-    background: url("./assets/Main/BGG.webp") center/cover;
+    background: url("./assets/Main/BG\ 1.webp") center/cover;
 }
 .bg-joinUs{
-    background: linear-gradient(#1e3b8aaf, #1E3A8A), url("./assets/Main/JoinusPlaceholder.webp") left/cover, #1E3A8A;
+    background: linear-gradient(#1e3b8aaf, #130395), url("./assets/Main/JoinusPlaceholder.webp") left/cover, #130395;
 
 }
 
@@ -249,14 +250,14 @@ body::-webkit-scrollbar-thumb{
     width: 48em;
     height: 48em;
     background-image:
-      radial-gradient(circle 10px, #1E3A8A 100%, transparent 0),
-      radial-gradient(circle 10px, #1E3A8A 100%, transparent 0),
-      radial-gradient(circle 10px, #1E3A8A 100%, transparent 0),
-      radial-gradient(circle 10px, #1E3A8A 100%, transparent 0),
-      radial-gradient(circle 10px, #1E3A8A 100%, transparent 0),
-      radial-gradient(circle 10px, #1E3A8A 100%, transparent 0),
-      radial-gradient(circle 10px, #1E3A8A 100%, transparent 0),
-      radial-gradient(circle 10px, #1E3A8A 100%, transparent 0);
+      radial-gradient(circle 10px, #130395 100%, transparent 0),
+      radial-gradient(circle 10px, #130395 100%, transparent 0),
+      radial-gradient(circle 10px, #130395 100%, transparent 0),
+      radial-gradient(circle 10px, #130395 100%, transparent 0),
+      radial-gradient(circle 10px, #130395 100%, transparent 0),
+      radial-gradient(circle 10px, #130395 100%, transparent 0),
+      radial-gradient(circle 10px, #130395 100%, transparent 0),
+      radial-gradient(circle 10px, #130395 100%, transparent 0);
     background-position: 0em -18em, 0em 18em, 18em 0em, -18em 0em,
                          13em -13em, -13em -13em, 13em 13em, -13em 13em;
       background-repeat: no-repeat;
@@ -266,7 +267,7 @@ body::-webkit-scrollbar-thumb{
   }
   .loader::after {
     font-size: 1px;
-    background: #1E3A8A;
+    background: #130395;
     animation: bounce 1s ease-in infinite;
   }
   

@@ -17,8 +17,8 @@ const UniversityChapters = () => {
   return (
     <div className=" w-[100%]  p-4 py-8">
       <div className='flex flex-col items-center text-center mb-6'>
-        <h1 className='font-semibold lg:text-5xl md:text-4xl text-3xl text-[#1E3A8A]'>University</h1>
-        <h1 className='font-bold lg:text-5xl md:text-4xl text-3xl text-[#1E3A8A]'>Chapters</h1>
+        <h1 className='font-extrabold  lg:text-5xl md:text-5xl text-4xl text-[#130395]'>University</h1>
+        <h1 className='font-extrabold  lg:text-5xl md:text-5xl text-4xl text-[#130395]'>Chapters</h1>
       </div>
       <Swiper
         slidesPerView={4}
@@ -57,7 +57,7 @@ const UniversityChapters = () => {
         {UniversityData.map((data, ind) => (
           <SwiperSlide key={data.id} style={{ width: '200px', maxHeight: '400px' }} className='w-max mt-8 flex flex-col items-center text-white py-8 -z-50'>
             <div className='rounded-3xl mb-8 bg-main  -z-50 relative'>
-              <div className='university-service-icon transform -translate-y-6 -translate-x-6 absolute h-[70px] w-[70px] border-4 border-[#1E3A8A] flex items-center justify-center rounded-full bg-white'>
+              <div className='university-service-icon transform -translate-y-6 -translate-x-6 absolute h-[70px] w-[70px] border-4 border-[#130395] flex items-center justify-center rounded-full bg-white'>
                 { data.icon }
               </div>
               <div className='flex flex-col items-center gap-2 shadow-2xl w-full rounded-3xl p-4 h-[250px]'>

@@ -9,33 +9,33 @@ import Logo from '../assets/Buttons/logo.png'
 
 const Footer = () => {
     return (
-        <div className='bg-[#1E3A8A] mt-2 px-6 lg:px-16 py-8'>
+        <div className='bg-[#130395] mt-2 px-6 lg:px-16 py-8'>
             <div className='grid lg:grid-cols-3 px-4  lg:py-8'>
                 <div className='col-span-2 grid lg:grid-cols-3 grid-cols-2 justify-center gap-3 text-white'>
                     <div className='flex flex-col gap-3'>
-                        <h1 className=' '>About Us</h1>
+                        <h1 className=' text-xl'>About Us</h1>
                         <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Mission</p>
                         <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Vision</p>
                         <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Team</p>
                     </div>
                     <div className='flex flex-col gap-3'>
-                        <h1 className=''>Discover</h1>
+                        <h1 className='text-xl'>Discover</h1>
                         <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Blog</p>
                         <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Services</p>
                         <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Knowledge</p>
                     </div>
                     <div className='flex flex-col gap-3'>
-                        <h1 className=''>Support</h1>
+                        <h1 className='text-xl'>Support</h1>
                         <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>FAQs</p>
                         <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Contact</p>
                     </div>
                 </div>
                 <div className='col col-span-1 flex flex-col gap-1 text-white text-sm mt-4 lg:mt-0 lg:mb-0 mb-4'>
                     <div className='flex flex-col items-start'>
-                        <h1 className='service-headers font-bold text-xl lg:text-3xl text-white'>Subscribe to</h1>
-                        <h1 className='service-headers font-bold text-xl lg:text-3xl text-white'>Our Newsletter</h1>
+                        <h1 className='font-bold text-2xl lg:text-4xl text-white'>Subscribe to</h1>
+                        <h1 className='font-bold text-2xl lg:text-4xl text-white'>Our Newsletter</h1>
                     </div>
-                    <p className='text-xs '>Subscribe to get latest information.</p>
+                    <p className='text-md '>Subscribe to get latest information.</p>
                     <TextField className='footer-inp' id="filled-basic" placeholder="Email Address" variant="standard" InputProps={{ disableUnderline: true }} sx={{ input: { color: 'black' } }} />
                     <img className='w-[150px]' src={subscribeBtn} alt="" />
                     {/* <Button variant='outlined nav-btn lg:w-[50%]'> Subscribe  </Button> */}

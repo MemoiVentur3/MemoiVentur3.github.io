@@ -15,8 +15,8 @@ const JoinUs = () => {
   return (
     <div className='grid lg:grid-cols-2 bg-joinUs p-6 lg:p-16 mt-2'>
         <div className='flex flex-col items-start gap-3 text-white'>
-            <h1 className='font-extrabold lg:text-5xl md:text-2xl text-2xl text-white'>Join Us</h1>
-            <p  className='ease-in duration-300 hover:text-white text-white text-xs'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates cupiditate, molestiae, labore natus commodi itaque aliquid ratione mollitia unde, tempora saepe. Quae saepe blanditiis neque aperiam eos officiis necessitatibus quidem.</p>
+            <h1 className='font-extrabold  lg:text-6xl md:text-5xl text-4xl text-white'>Join Us</h1>
+            <p  className='ease-in duration-300 hover:text-white text-white text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates cupiditate, molestiae, labore natus commodi itaque aliquid ratione mollitia unde, tempora saepe. Quae saepe blanditiis neque aperiam eos officiis necessitatibus quidem.</p>
             {/* social media icons */}
             <div className='flex items-center gap-3'>
                 <img className='w-[50px] object-cover' src={twitter} alt="" />

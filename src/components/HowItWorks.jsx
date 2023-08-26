@@ -19,7 +19,7 @@ const HowItWorks = () => {
     <>
       <div className='flex flex-col pt-8'>
         <div className='flex flex-col items-center text-center'>
-          <h1 className='font-extrabold lg:text-5xl md:text-4xl text-3xl text-[#1E3A8A]'>How It Works </h1>
+          <h1 className='font-extrabold  lg:text-5xl md:text-5xl text-4xl text-[#130395]'>How It Works </h1>
         </div>
         <div className=''>
           <img src={img} alt="" />
@@ -32,7 +32,7 @@ const HowItWorks = () => {
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent>
-                <div className='bg-[#1E3A8A] rounded-t-2xl p-4 text-gray-300 text-smh-[150px] w-[200px]'>
+                <div className='bg-[#130395] rounded-t-2xl p-4 text-gray-300 text-smh-[150px] w-[200px]'>
                   <p className='text-sm '>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam odio nesciunt itaque quaerat.</p>
                 </div>
               </TimelineContent>
@@ -45,7 +45,7 @@ const HowItWorks = () => {
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent>
-                <div className='bg-[#1E3A8A] rounded-t-2xl p-4 text-gray-300 text-smh-[150px] w-[200px] float-right'>
+                <div className='bg-[#130395] rounded-t-2xl p-4 text-gray-300 text-smh-[150px] w-[200px] float-right'>
                   <p className='text-sm  text-left'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam odio nesciunt itaque quaerat.</p>
                 </div>
               </TimelineContent>
@@ -58,7 +58,7 @@ const HowItWorks = () => {
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent>
-                <div className='bg-[#1E3A8A] rounded-t-2xl p-4 text-gray-300 text-smh-[150px] w-[200px]'>
+                <div className='bg-[#130395] rounded-t-2xl p-4 text-gray-300 text-smh-[150px] w-[200px]'>
                   <p className='text-sm '>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam odio nesciunt itaque quaerat.</p>
                 </div>
               </TimelineContent>
@@ -71,7 +71,7 @@ const HowItWorks = () => {
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent>
-                <div className='bg-[#1E3A8A] rounded-t-2xl p-4 text-gray-300 text-smh-[150px] w-[200px] float-right'>
+                <div className='bg-[#130395] rounded-t-2xl p-4 text-gray-300 text-smh-[150px] w-[200px] float-right'>
                   <p className='text-sm  text-left'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam odio nesciunt itaque quaerat.</p>
                 </div>
               </TimelineContent>
@@ -84,7 +84,7 @@ const HowItWorks = () => {
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent>
-                <div className='bg-[#1E3A8A] rounded-t-2xl p-4 text-gray-300 text-smh-[150px] w-[200px]'>
+                <div className='bg-[#130395] rounded-t-2xl p-4 text-gray-300 text-smh-[150px] w-[200px]'>
                   <p className='text-sm '>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam odio nesciunt itaque quaerat.</p>
                 </div>
               </TimelineContent>
