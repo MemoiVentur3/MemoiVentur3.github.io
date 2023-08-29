@@ -15,7 +15,7 @@ const Contact = () => {
                     <Fade bottom><h1 className='font-semibold lg:text-5xl md:text-4xl text-3xl text-white'>in mind ?</h1></Fade>
                 </div>
                 <div className=' text-center text-white text-sm'>
-                    <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, nisi hic iure, libero ipsam provident animi aperiam cupiditate fugit itaque eum fuga eos dolores voluptas aut odit. Quasi, amet commodi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde praesentium sapiente optio quisquam deserunt laborum consequatur, explicabo vel sint consectetur asperiores ducimus! Nostrum, minus voluptatum? Facilis et vel nobis dolorum.</p>
+                    <p className=''>Ready to turn your idea into reality? Whether it's a tech startup, an innovative app, or a game-changing solution, we're here to support you. Fill out the form below to share your project details with us. Our team is excited to learn more about your vision and explore how MEMOI AFRICA can help bring your project to life. Let's embark on this journey of innovation together!</p>
                 </div>
             </div>
             <div className='w-full flex items-center justify-center mt-8 '>
@@ -27,7 +27,7 @@ const Contact = () => {
                     <div className='flex flex-col col-span-2 '>
                         <div className='flex flex-col gap-1 p-4'>
                             <h1 className='lg:text-4xl text-3xl font-semibold'>Form</h1>
-                            <p className='pages-font text-sm text-white'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit nihil nemo odio voluptas iure sequi id ex soluta, qui obcaecati blanditiis dolore inventore commodi labore accusamus optio tempore harum quo?</p>
+                            <p className='pages-font text-sm text-white'>Please provide us with some information about your project. This will help us understand your vision and how MEMOI AFRICA can assist you in achieving your goals. We're eager to collaborate with you and contribute to the success of your project.</p>
                         </div>
                         <form action="" className='pages-font flex flex-col items-start  gap-2 p-4'>
                             <TextField className='inp w-[100%]' id="filled-basic" placeholder="Name" variant="standard" InputProps={{ disableUnderline: true }} sx={{ input: { color: 'white' } }} />
