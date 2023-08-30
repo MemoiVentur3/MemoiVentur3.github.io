@@ -30,6 +30,13 @@ const PagesFooter = () => {
                         <Link to='/service'><p className=' cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Services</p></Link>
                         <p className=' cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Knowledge</p>
                     </div>
+                    <div className='flex flex-col gap-3'>
+                        <h1 className='text-xl'>Opportunities</h1>
+                        <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Jobs</p>
+                        <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Events</p>
+                        <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Partners</p>
+                        <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Projects</p>
+                    </div>
                     <div className='flex flex-col items-start gap-3'>
                         <h1 className=' text-xl '>Support</h1>
                         <p className=' cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>FAQs</p>

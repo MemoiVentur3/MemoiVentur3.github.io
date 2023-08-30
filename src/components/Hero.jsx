@@ -46,20 +46,20 @@ const Hero = () => {
             {/* progress counter */}
             <div className='flex items-center justify-evenly mt-1 py-10 w-full bg-[#130395] text-white lg:px-8 px-2'>
                 <div className='flex flex-col gap-2 items-center'>
-                    <h1 className='font-bold lg:text-[60px] text-4xl text-white'>10+</h1>
-                    <p className='lg:text-lg text-xs '>Services</p>
+                    <h1 className='font-bold lg:text-[60px] text-4xl text-white'>5,000+</h1>
+                    <p className='lg:text-lg text-xs flex lg:flex-row flex-col gap-1'><span>Developer</span> <span>Community</span></p>
                     {/* progress bar */}
                     <div className='service-progress rounded-full lg:block hidden'></div>
                 </div>
                 <div className='flex flex-col gap-2 items-center'>
-                <h1 className='font-bold lg:text-[60px] text-4xl text-white'>10+</h1>
-                    <p className='lg:text-lg text-xs '>Projects</p>
+                <h1 className='font-bold lg:text-[60px] text-4xl text-white'>40+</h1>
+                <p className='lg:text-lg text-xs flex lg:flex-row flex-col gap-1'><span>University</span> <span>Partners</span></p>
                     {/* progress bar */}
                     <div className='service-progress rounded-full lg:block hidden'></div>
                 </div>
                 <div className='flex flex-col gap-2 items-center'>
                     <h1 className='font-bold lg:text-[60px] text-4xl text-white'>100%</h1>
-                    <p className='lg:text-lg text-xs flex lg:flex-row flex-col'><span>Bootcamp</span> <span>Success</span></p>
+                    <p className='lg:text-lg text-xs flex lg:flex-row flex-col gap-1'><span>Project</span> <span>Success</span></p>
                     {/* progress bar */}
                     <div className='bootcamp-progress rounded-full lg:block hidden'></div>
                 </div>
