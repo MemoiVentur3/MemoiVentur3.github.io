@@ -15,7 +15,7 @@ const navigation = [
   { id: '/', name: 'Home', href: '#' },
   { id: '/about', name: 'About', href: '#' },
   { id: '/service', name: 'Services', href: '#' },
-  { id: '/blog', name: 'Blog', href: '#' },
+  { id: '/blog', name: 'Portfolio', href: '#' },
 ]
 
 export default function Navbar() {
