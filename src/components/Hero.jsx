@@ -24,7 +24,7 @@ const Hero = () => {
                     <div className='flex flex-col gap-3 text-white lg:items-start items-center '>
                         <Fade top><h1 className='font-extrabold lg:text-9xl md:text-6xl text-6xl'>MEMOI</h1></Fade>
                         <Fade bottom><h1 className='font-extrabold lg:text-9xl md:text-6xl text-6xl '>AFRICA</h1></Fade>
-                        <LightSpeed top><p className='ease-in duration-300 lg:text-left text-center text-gray-300 text-sm'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure nam nobis natus dolore earum a magni voluptates officiis vitae rem eum sit, quisquam repellendus numquam laudantium deserunt, doloribus consectetur labore?</p></LightSpeed>
+                        <LightSpeed top><p className='ease-in duration-300 lg:text-left text-center text-gray-300 text-sm'>Welcome to MEMOI AFRICA – a vibrant hub for African developers and founders at the forefront of technological innovation. Our community is a dynamic melting pot of creativity, collaboration, and expertise, driven by a shared passion for driving progress in the realms of Blockchain, AI, and other emerging technologies. </p></LightSpeed>
                         {/* button */}
                         <div className='grid lg:grid-cols-2 gap-2 w-full'>
                             <Button variant='outlined hero-btn'><Link to='About'>Developers<ArrowForward /> </Link></Button>
@@ -46,20 +46,20 @@ const Hero = () => {
             {/* progress counter */}
             <div className='flex items-center justify-evenly mt-1 py-10 w-full bg-[#130395] text-white lg:px-8 px-2'>
                 <div className='flex flex-col gap-2 items-center'>
-                    <h1 className='font-bold lg:text-[60px] text-4xl text-white'>10+</h1>
-                    <p className='lg:text-lg text-xs '>Services</p>
+                    <h1 className='font-bold lg:text-[60px] text-4xl text-white'>5,000+</h1>
+                    <p className='lg:text-lg text-xs flex lg:flex-row flex-col gap-1'><span>Developer</span> <span>Community</span></p>
                     {/* progress bar */}
                     <div className='service-progress rounded-full lg:block hidden'></div>
                 </div>
                 <div className='flex flex-col gap-2 items-center'>
-                <h1 className='font-bold lg:text-[60px] text-4xl text-white'>10+</h1>
-                    <p className='lg:text-lg text-xs '>Projects</p>
+                <h1 className='font-bold lg:text-[60px] text-4xl text-white'>40+</h1>
+                <p className='lg:text-lg text-xs flex lg:flex-row flex-col gap-1'><span>University</span> <span>Partners</span></p>
                     {/* progress bar */}
                     <div className='service-progress rounded-full lg:block hidden'></div>
                 </div>
                 <div className='flex flex-col gap-2 items-center'>
                     <h1 className='font-bold lg:text-[60px] text-4xl text-white'>100%</h1>
-                    <p className='lg:text-lg text-xs flex lg:flex-row flex-col'><span>Bootcamp</span> <span>Success</span></p>
+                    <p className='lg:text-lg text-xs flex lg:flex-row flex-col gap-1'><span>Project</span> <span>Success</span></p>
                     {/* progress bar */}
                     <div className='bootcamp-progress rounded-full lg:block hidden'></div>
                 </div>

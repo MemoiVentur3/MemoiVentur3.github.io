@@ -30,7 +30,7 @@ const FAQs = () => {
                             </div>
                         </AccordionSummary>
                         <AccordionDetails className='shadow-2xl shadow-black/50 rounded-b-lg p-4 py-24 h-max'>
-                            <p className=' text-[#130395] text-sm py-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptas iusto ipsam assumenda ad. Rem labore nostrum omnis, odit dolorem rerum nobis a, at, iusto perferendis sed veniam nisi praesentium.</p>
+                            <p className=' text-[#130395] text-sm py-8'>MEMOI AFRICA is a vibrant community that brings together African developers, founders, and tech enthusiasts who are passionate about driving growth in the fields of Blockchain, AI, and other emerging technologies. We provide a platform for knowledge sharing, collaboration, and innovation. Our initiatives include workshops, hackathons, bootcamps, and more, all aimed at empowering individuals and fostering tech excellence across the continent.</p>
                         </AccordionDetails>
                     </Accordion>
                     <Accordion style={{ boxShadow: 'none' }} expanded={expanded === 'panel2'} onChange={handleChange('panel2')} sx={{ backgroundColor: 'white',borderRadius : '10px' }} className="lg:w-[80%] z-10  ease-in duration-300 ">
@@ -44,7 +44,7 @@ const FAQs = () => {
                             </div>
                         </AccordionSummary>
                         <AccordionDetails className='shadow-2xl shadow-black/50 rounded-b-lg p-4 py-8 h-max'>
-                            <p className=' text-[#130395] text-sm  py-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptas iusto ipsam assumenda ad. Rem labore nostrum omnis, odit dolorem rerum nobis a, at, iusto perferendis sed veniam nisi praesentium.</p>
+                            <p className=' text-[#130395] text-sm  py-8'>Applying for our programs is easy! Simply visit our website and navigate to the "Programs" section. Browse through the list of available initiatives, workshops, and events. Click on the program you're interested in, and you'll find detailed information about the application process. Follow the provided instructions to complete your application. We're excited to have you join our community of tech enthusiasts!</p>
                         </AccordionDetails>
                     </Accordion>
                     <Accordion style={{ boxShadow: 'none' }} expanded={expanded === 'panel3'} onChange={handleChange('panel3')} sx={{ backgroundColor: 'white',borderRadius : '10px' }} className="lg:w-[80%] z-10  ease-in duration-300 ">
@@ -58,7 +58,7 @@ const FAQs = () => {
                             </div>
                         </AccordionSummary>
                         <AccordionDetails className='shadow-2xl shadow-black/50 rounded-b-lg p-4 py-8 h-max'>
-                        <p className=' text-[#130395] text-sm py-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptas iusto ipsam assumenda ad. Rem labore nostrum omnis, odit dolorem rerum nobis a, at, iusto perferendis sed veniam nisi praesentium.</p>
+                        <p className=' text-[#130395] text-sm py-8'>Absolutely! Our bootcamps are designed to cater to individuals at various skill levels, from beginners to experienced developers. We offer bootcamps on topics related to Blockchain, AI, and other emerging technologies. These bootcamps provide a structured learning experience with hands-on exercises and practical insights. Keep an eye on our announcements and program listings to find out when the next bootcamp is available to the public.</p>
                         </AccordionDetails>
                     </Accordion>
                     <Accordion style={{ boxShadow: 'none' }} expanded={expanded === 'panel4'} onChange={handleChange('panel4')} sx={{ backgroundColor: 'white',borderRadius : '10px' }} className="lg:w-[80%] z-10  ease-in duration-300 ">
@@ -72,7 +72,7 @@ const FAQs = () => {
                             </div>
                         </AccordionSummary>
                         <AccordionDetails className='shadow-2xl shadow-black/50 rounded-b-lg p-4 py-8 h-max'>
-                        <p className=' text-[#130395] text-sm py-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptas iusto ipsam assumenda ad. Rem labore nostrum omnis, odit dolorem rerum nobis a, at, iusto perferendis sed veniam nisi praesentium.</p>
+                        <p className=' text-[#130395] text-sm py-8'>We occasionally offer promotional or discount codes for our programs and events. These codes are usually shared through our official communication channels, such as newsletters, social media, and community announcements. To stay updated and ensure you don't miss out on any special offers, make sure to subscribe to our newsletter and follow us on our social media platforms. Keep an eye out for these codes to make the most of your MEMOI AFRICA experience.</p>
                         </AccordionDetails>
                     </Accordion>
                 </div>
