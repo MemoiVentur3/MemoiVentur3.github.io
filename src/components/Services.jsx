@@ -16,32 +16,41 @@ const Services = () => {
         <div className='bg-white w-full flex flex-col items-center justify-center mb-8' id='Service'>
             <div className='flex items-center flex-col p-8 '>
                 <div className='flex flex-col items-center justify-center py-8 w-[80%]'>
-                    <Fade top><h1 className='font-extrabold  lg:text-6xl md:text-5xl text-4xl text-[#130395]'>Our Services</h1></Fade>
+                    <Fade top><h1 className='font-extrabold  lg:text-6xl md:text-5xl text-4xl text-[#130395]'>What we Offer</h1></Fade>
                     <div className=' text-center mt-3 text-[#130395]'>
-                        <p className='text-sm font-semibold text-[#130395] '>We offer a number of programming but the three major programming includes :    </p>
+
                     </div>
                 </div>
                 {/* services cards */}
                 <div className='flex lg:flex-row flex-col items-center justify-center gap-3 mt-4 lg:pb-8 pb-0'>
                     <Fade cascade damping={0.2}>
-                        <div className='p-4 flex flex-col items-center text-center text-[#130395] border lg:translate-y-28 hover:shadow-black/40 shadow-xl h-[500px] w-[300px] rounded-3xl ease-out duration-300'>
+                        <div className='p-4 flex flex-col items-center text-center text-[#130395] border lg:translate-y-18 hover:shadow-black/40 shadow-xl h-[500px] w-[300px] rounded-3xl ease-out duration-300'>
                             {/* icon */}
                             <img className='mb-2 h-[100px] w-[100px] object-cover' src={icon1} alt="" />
                             <h1 className='font-extrabold text-2xl'>UNIVERSITY CHAPTERS</h1>
-                            <p className='mt-2 ease-in duration-300 text-[#130395] text-sm font-semibold'>One of the cornerstones of MEMOI AFRICA is our dedicated focus on nurturing the next generation of tech leaders through our University Chapters program. We recognize that the journey of innovation begins early, and that's why we've established partnerships with universities across the continent. These chapters serve as hubs of learning, collaboration, and inspiration, where students can dive into the world of Blockchain, AI, and emerging technologies.</p>
+                            <p className='mt-2 ease-in duration-300 text-[#130395] text-sm font-semibold'>Discover the potential of an exciting collaboration with us as we work together to expand your footprint within Africa's thriving tech ecosystem. Our extensive network encompasses partnerships with 40+ prestigious African Universities, providing us with invaluable insights and capabilities in the realm of community-building, campus tours, and ambassador programs.</p>
                         </div>
                         <div className='p-4 flex flex-col items-center text-center text-[#130395] border lg:translate-y-14 hover:shadow-black/40 shadow-xl h-[500px] w-[300px] rounded-3xl ease-out duration-300'>
                             {/* icon */}
                             <img className='mb-2 h-[100px] w-[100px] object-cover' src={icon2} alt="" />
-                            <h1 className='font-extrabold text-2xl'>HACKATHON AS A SERVICE</h1>
-                            <p className='mt-2 ease-in duration-300 text-[#130395] text-sm font-semibold'>Introducing our innovative "Hackathon as a Service" – a dynamic offering designed to fuel creativity, foster innovation, and accelerate problem-solving in the tech realm. Hackathons have long been recognized as incubators of groundbreaking ideas, and at MEMOI AFRICA, we take them to the next level. </p>
+                            <h1 className='font-extrabold text-2xl'>Memoi Talent Hunt</h1>
+                            <p className='mt-2 ease-in duration-300 text-[#130395] text-sm font-semibold'>Hire from the highest quality talent network in Africa.  Gain direct access to 1000+ technical African talents on demand to work full-time/part-time on a milestone basis  Effortlessly find the right tech talent for your projects with Memoi Talent.</p>
                         </div>
-                        <div className='p-4 flex flex-col items-center text-center text-[#130395] border  hover:shadow-black/40 shadow-xl h-[500px] w-[300px] rounded-3xl ease-out duration-300'>
+                        <div className='p-4 flex flex-col items-center text-center text-[#130395] border lg:translate-y-14 hover:shadow-black/40 shadow-xl h-[500px] w-[300px] rounded-3xl ease-out duration-300'>
+                            {/* icon */}
+                            <img className='mb-2 h-[100px] w-[100px] object-cover' src={icon1} alt="" />
+                            <h1 className='font-extrabold text-2xl'>Memoi University</h1>
+                            <p className='mt-2 ease-in duration-300 text-[#130395] text-sm font-semibold'>Memoi University offers intensive bootcamps, courses, and workshops focused on blockchain, led by industry experts. Whether you're a beginner or an experienced developer, our programs provide practical knowledge and hands-on experience with the latest technologies. We empower developers to excel in the ever-evolving tech landscape.
+                            </p>
+                        </div>
+                        <div className='p-4 flex flex-col items-center text-center text-[#130395] border hover:shadow-black/40 shadow-xl h-[500px] w-[300px] rounded-3xl ease-out duration-300'>
                             {/* icon */}
                             <img className='mb-2 h-[100px] w-[200px] object-cover' src={icon3} alt="" />
                             <h1 className='font-extrabold text-2xl'>BOOTCKATHON</h1>
                             <h1 className='text-xl text-extrabold'>Bootcamp * Hackathon</h1>
-                            <p className='mt-2 ease-in duration-300 text-[#130395] text-sm font-semibold'>Experience the best of both worlds with our unique Bootckathon – the fusion of a bootcamp and a hackathon, tailored to supercharge your skills and innovation prowess. Designed to provide a comprehensive learning journey, the Bootckathon takes you from the basics to cutting-edge applications in record time.</p>
+                            <p className='mt-2 ease-in duration-300 text-[#130395] text-sm font-semibold'>
+                                Memoi hosts dynamic hackathons with top partners, uniting diverse developers and innovators. Together, they tackle real-world challenges in a competitive, high-energy setting. Memoi handles everything, from participant recruitment to logistics, for both online and offline programs across Africa.
+                            </p>
                         </div>
                     </Fade>
                 </div>
