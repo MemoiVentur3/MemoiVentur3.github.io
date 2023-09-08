@@ -10,6 +10,14 @@ import Fade from 'react-reveal/Fade';
 import LightSpeed from 'react-reveal/LightSpeed';
 import Zoom from 'react-reveal/Zoom';
 
+//partners
+import p1 from '../assets/Partners/partner1.webp'
+import p2 from '../assets/Partners/partner2.webp'
+import p3 from '../assets/Partners/partner3.webp'
+import p4 from '../assets/Partners/partner4.webp'
+import p5 from '../assets/Partners/partner5.webp'
+import p6 from '../assets/Partners/partner6.webp'
+
 
 // mui
 import { Button } from '@mui/material'
@@ -75,35 +83,42 @@ const Hero = () => {
                     <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
                         <img
                             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                            src="https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg"
-                            alt="Transistor"
-                            width={158}
-                            height={48}
-                        />
-                        <img
-                            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                            src="https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg"
+                            src={p1}
                             alt="Reform"
                             width={158}
                             height={48}
                         />
                         <img
                             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                            src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg"
+                            src={p2}
+                            alt="Transistor"
+                            width={158}
+                            height={48}
+                        />
+                        <img
+                            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                            src={p3}
+                            alt="Reform"
+                            width={158}
+                            height={48}
+                        />
+                        <img
+                            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                            src={p4}
                             alt="Tuple"
                             width={158}
                             height={48}
                         />
                         <img
                             className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-                            src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg"
+                            src={p5}
                             alt="SavvyCal"
                             width={158}
                             height={48}
                         />
                         <img
                             className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-                            src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg"
+                            src={p6}
                             alt="Statamic"
                             width={158}
                             height={48}
