@@ -1,41 +1,36 @@
 // team images
-import team1 from '../assets/Team/team1.webp'
-import team2 from '../assets/Team/team2.webp'
-import team3 from '../assets/Team/team3.webp'
-import team4 from '../assets/Team/team4.webp'
-import team5 from '../assets/Team/team5.webp'
+import team1 from '../assets/Team/Joan.webp'
+import team2 from '../assets/Team/DefiDevrel.webp'
+import team3 from '../assets/Team/Mona.webp'
+import team4 from '../assets/Team/Gerald.webp'
+//import team5 from '../assets/Team/team5.webp'
 
 const TeamsData = [
     {
         id : 1,
-        name : 'Kate Kallot',
-        position : 'A.I',
+        name : 'Gerald',
+        position : 'Technical Project Lead',
         image : team4
     },
     {
         id : 2,
-        name : 'Joan Jerop',
-        position : 'C.E.O',
+        name : 'Elisha David',
+        position : 'Developer Relations, Memoi',
         image : team2
     },
     {
         id : 3,
-        name : 'Trang Le Bozor',
-        position : 'Blockchain Tech',
+        name : 'Monalisa Agbata',
+        position : 'CMO, Memoi',
         image : team3
     },
     {
         id : 4,
-        name : 'Elisha David',
-        position : 'Senior Developer',
+        name : 'Joan Jerop',
+        position : 'Founder/CEO, Memoi',
         image : team1
     },
-    {
-        id : 5,
-        name : 'James Abraham',
-        position : 'Frontend Developer',
-        image : team5
-    }
+    
 
 ]
 
