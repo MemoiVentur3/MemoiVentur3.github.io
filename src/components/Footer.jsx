@@ -16,12 +16,16 @@ const Footer = () => {
                         <h1 className=' text-xl'>About Us</h1>
                         <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Mission</p>
                         <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Vision</p>
+                        <a href='/about#Team'>
                         <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Team</p>
+                        </a>
                     </div>
                     <div className='flex flex-col gap-3'>
                         <h1 className='text-xl'>Discover</h1>
                         <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Blog</p>
+                        <a href='/services'>
                         <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Services</p>
+                        </a>
                         <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Knowledge</p>
                     </div>
                     <div className='flex flex-col gap-3'>

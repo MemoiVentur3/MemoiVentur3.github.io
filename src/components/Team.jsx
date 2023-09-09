@@ -12,7 +12,7 @@ import "swiper/css/navigation";
 
 const Team = () => {
     return (
-        <div className=" w-[100%] bg-main p-4 py-8">
+        <div id="Team" className=" w-[100%] bg-main p-4 py-8">
             <div className='flex flex-col items-center text-center'>
                 <h1 className='font-extrabold  lg:text-5xl md:text-4xl text-4xl text-white'>The Team</h1>
             </div>
