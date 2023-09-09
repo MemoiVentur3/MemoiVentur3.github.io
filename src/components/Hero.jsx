@@ -33,12 +33,12 @@ const Hero = () => {
                         <Fade top><h1 className='font-extrabold lg:text-9xl md:text-6xl text-6xl'>MEMOI</h1></Fade>
                         <Fade bottom><h1 className='font-extrabold lg:text-9xl md:text-6xl text-6xl '>AFRICA</h1></Fade>
                         <LightSpeed top><p className='ease-in duration-300 lg:text-left text-center text-gray-300 text-sm'>Memoi is a community of African developers and founders.
-                            Our primary mission is to fuel growth in the areas of Blockchain, AI, IoT and other emerging techs. We empower young builders to create practical solutions to real-world challenges and make global impact.
+                            Our primary mission is to fuel growth in the areas of Blockchain, AI, IoT and other emerging techs.
                         </p></LightSpeed>
                         {/* button */}
                         <div className='grid lg:grid-cols-2 gap-2 w-full'>
                             <Button variant='outlined hero-btn'><Link to='https://nas.io/memoi-africa'>Developers<ArrowForward /> </Link></Button>
-                            <Button variant='outlined hero-btn'><Link to='About'>Partners <ArrowForward /> </Link></Button>
+                            <Button variant='outlined hero-btn'><Link to='About'>Companies <ArrowForward /> </Link></Button>
                         </div>
                         {/* image buttons */}
                         {/* <div className='flex items-start w-[50%]'>
@@ -77,7 +77,7 @@ const Hero = () => {
 
             <div className="bg-[#130395] py-24 sm:py-32">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                    <h1 className="text-center text-xl md:text-4xl font-extrabold leading-8 text-white">
+                    <h1 className="text-center text-2xl md:text-4xl font-extrabold leading-8 text-white">
                         Our Partners
                     </h1>
                     <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
