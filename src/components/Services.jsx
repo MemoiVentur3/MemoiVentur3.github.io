@@ -16,7 +16,7 @@ const Services = () => {
         <div className='bg-white w-full flex flex-col items-center justify-center mb-8' id='Service'>
             <div className='flex items-center flex-col p-8 '>
                 <div className='flex flex-col items-center justify-center py-8 w-[80%]'>
-                    <Fade top><h1 className='font-extrabold  lg:text-6xl md:text-5xl text-4xl text-[#130395]'>What we Offer</h1></Fade>
+                    <Fade top><h1 className='font-extrabold  lg:text-6xl md:text-5xl text-4xl text-[#130395]'>What We Offer</h1></Fade>
                     <div className=' text-center mt-3 text-[#130395]'>
 
                     </div>
