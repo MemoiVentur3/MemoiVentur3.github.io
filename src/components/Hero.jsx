@@ -38,7 +38,7 @@ const Hero = () => {
                         {/* button */}
                         <div className='grid lg:grid-cols-2 gap-2 w-full'>
                             <Button variant='outlined hero-btn'><Link to='https://nas.io/memoi-africa'>Developers<ArrowForward /> </Link></Button>
-                            <Button variant='outlined hero-btn'><Link to='About'>Companies <ArrowForward /> </Link></Button>
+                            <Button variant='outlined hero-btn'><Link to='Service'>Companies <ArrowForward /> </Link></Button>
                         </div>
                         {/* image buttons */}
                         {/* <div className='flex items-start w-[50%]'>
