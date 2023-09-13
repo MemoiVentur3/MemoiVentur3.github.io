@@ -37,11 +37,11 @@ const Hero = () => {
                         </p></LightSpeed>
                         {/* button */}
                         <div className='grid lg:grid-cols-2 gap-2 w-full'>
-                            <a href='https://nas.io/memoi-africa' target="_blank" rel="noopener noreferrer">
-                           <Button variant='outlined hero-btn'> Developers <ArrowForward />
-                           </Button>
-                           </a>
-                            <Button variant='outlined hero-btn'><Link to='Service'>Companies <ArrowForward /> </Link></Button>
+                           
+                           <Button variant='outlined hero-btn'><a href='https://nas.io/memoi-africa' target="_blank" rel="noopener noreferrer"> For Developers <ArrowForward />
+                           </a></Button>
+                           
+                            <Button variant='outlined hero-btn'><a href='/Service'>For Companies <ArrowForward /> </a></Button>
                         </div>
                         {/* image buttons */}
                         {/* <div className='flex items-start w-[50%]'>
