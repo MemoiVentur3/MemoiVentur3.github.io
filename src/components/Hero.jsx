@@ -32,8 +32,7 @@ const Hero = () => {
                     <div className='flex flex-col gap-3 text-white lg:items-start items-center '>
                         <Fade top><h1 className='font-extrabold lg:text-9xl md:text-6xl text-6xl'>MEMOI</h1></Fade>
                         <Fade bottom><h1 className='font-extrabold lg:text-9xl md:text-6xl text-6xl '>AFRICA</h1></Fade>
-                        <LightSpeed top><p className='ease-in duration-300 lg:text-left text-center text-gray-300 text-sm'>Memoi is a community of African developers and founders.
-                            Our primary mission is to fuel growth in the areas of Blockchain, AI, IoT and other emerging techs.
+                        <LightSpeed top><p className='ease-in duration-300 lg:text-left text-center text-gray-300 text-sm'>Memoi is a community of African developers and Founders. We're upskilling and onboarding Africans into Blockchain, AI, IoT and other emerging techs.
                         </p></LightSpeed>
                         {/* button */}
                         <div className='grid lg:grid-cols-2 gap-2 w-full'>

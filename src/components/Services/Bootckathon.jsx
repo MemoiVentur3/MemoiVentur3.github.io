@@ -11,7 +11,7 @@ const Bootckathon = () => {
           {/* <h1 className='font-extrabold  lg:text-5xl md:text-5xl text-4xl text-white'>(Bootcamp + Hackathon)</h1> */}
         </div>
         <div className='mt-2 text-white lg:text-sm text-sm'>
-          <p className=' '>Hire from the highest quality talent network in Africa.  Gain direct access to 1000+ technical African talents on demand to work full-time/part-time on a milestone basis  Effortlessly find the right tech talent for your projects with Memoi Talent.</p>
+          <p className=' '>At Memoi, we understand that finding the right talent for your projects is essential for success. That's why we're excited to introduce Memoi Talent – your gateway to a curated pool of skilled and vetted developers from our over 5,000 community database,  who are ready to join your team. By hiring from our already existing pool of developers, we save you 35% time and money. With our rigorous selection process and commitment to quality, we're here to connect you with top-tier experts in Web3, AI, Blockchain, frontend development, backend engineers, product designers, product managers, UI/UX, Cybersecurity engineers, AWS engineers who can elevate your projects to new heights.</p>
         </div>
         
         {/* <div className='mt-4 text-white lg:text-sm text-sm'>
