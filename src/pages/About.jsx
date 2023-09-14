@@ -21,8 +21,8 @@ const AboutPage = () => {
         <>
           <Navbar />
           <div className='w-[100%]'>
-            <Objective />
             <HowItWorks />
+            <Objective />
             <Team />
             <FAQs />
             <PagesFooter />
