@@ -13,8 +13,8 @@ import { Phone } from '@mui/icons-material'
 
 const navigation = [
   { id: '/', name: 'Home', href: '#' },
-  { id: '/about', name: 'Who We Are', href: '#' },
-  { id: '/service', name: 'What We Offer', href: '#' },
+  { id: '/about-us', name: 'Who We Are', href: '#' },
+  { id: '/our-services', name: 'What We Offer', href: '#' },
   { id: '/blog', name: 'Blog', href: '#' },
 ]
 
