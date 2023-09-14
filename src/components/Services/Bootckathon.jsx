@@ -10,7 +10,7 @@ const Bootckathon = () => {
           <h1 className='font-extrabold  lg:text-5xl md:text-5xl text-4xl text-white'>Memoi Talent</h1>
           {/* <h1 className='font-extrabold  lg:text-5xl md:text-5xl text-4xl text-white'>(Bootcamp + Hackathon)</h1> */}
         </div>
-        <div className='mt-2 text-white text-center lg:text-sm text-sm'>
+        <div className='mt-2 text-white lg:text-sm text-sm'>
           <p className=' '>Hire from the highest quality talent network in Africa.  Gain direct access to 1000+ technical African talents on demand to work full-time/part-time on a milestone basis  Effortlessly find the right tech talent for your projects with Memoi Talent.</p>
         </div>
         
