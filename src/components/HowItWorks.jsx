@@ -23,7 +23,7 @@ const HowItWorks = () => {
         </div>
         <div className=''>
           <p className='mt-2 mb-4 ease-in duration-300 text-[#130395] text-sm w-full lg:w-[60%]'>Memoi is heavy on building a vibrant and functional community.
-            We are leveraging a community driven approach to onboard the next generation of African developers who will make a global impact in emerging technologies.</br>
+            We are leveraging a community driven approach to onboard the next generation of African developers who will make a global impact in emerging technologies.
             Whether you're a newbie looking to upskill or a seasoned developer needing a team to launch your startup or just need support to try out your ideas, there’s a range of events and programs for you.
             We are bringing together developers, designers and founders to create an innovative technological ecosystem that drives growth, economic, social development and greater tech inclusion in Africa.
           </p>
