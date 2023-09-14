@@ -18,28 +18,28 @@ const PagesFooter = () => {
         <div className='bg-[#130395] mt-2 px-4 lg:px-24 py-8'>
             <div className='flex flex-col justify-center lg:items-end w-full px-4 gap-4  lg:py-8 lg:px-24 pb-4'>
                 <div className='lg:flex items-center justify-between grid grid-cols-2  gap-3 w-[100%] text-white'>
-                    <div className='flex flex-col items-start gap-3'>
+                    {/* <div className='flex flex-col items-start gap-3'>
                         <h1 className='text-xl'>Support</h1>
                         <p className=' cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Mission</p>
                         <p className=' cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Vision</p>
                         <p className=' cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Team</p>
-                    </div>
+                    </div> */}
                     <div className='flex flex-col items-start gap-3'>
                         <h1 className=' text-xl '>Discover</h1>
                         <Link to='/blog'><p className=' cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Blog</p></Link>
                         <Link to='/service'><p className=' cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Services</p></Link>
-                        <p className=' cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Knowledge</p>
+                        
                     </div>
                     <div className='flex flex-col gap-3'>
                         <h1 className='text-xl'>Opportunities</h1>
                         <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Jobs</p>
                         <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Events</p>
                         <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Partners</p>
-                        <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Projects</p>
+                        
                     </div>
                     <div className='flex flex-col items-start gap-3'>
                         <h1 className=' text-xl '>Support</h1>
-                        <p className=' cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>FAQs</p>
+                        <Link to='#faq'><p className=' cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>FAQs</p></Link>
                         <Link to='/contact'><p className=' cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Contact</p></Link>
 
                     </div>

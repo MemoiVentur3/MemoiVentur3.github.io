@@ -13,7 +13,7 @@ const FAQs = () => {
         setExpanded(isExpanded ? panel : false);
     };
     return (
-        <div className='bg-white w-full'>
+        <div id="faq" className='bg-white w-full'>
             <div className='flex items-center justify-center flex-col p-8 '>
                 <div className='flex flex-col items-center justify-center py-8 lg:w-[80%]'>
                     <h1 className='font-extrabold  lg:text-5xl md:text-5xl text-4xl text-[#130395]'>FAQs</h1>
