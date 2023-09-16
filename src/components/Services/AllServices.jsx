@@ -6,9 +6,9 @@ import { Hackathon,Bootckathon,Incubate,UniversityChapters } from './index'
 const AllServices = () => {
   return (
     <div>
+        <Incubate />
         <Hackathon />
         <Bootckathon />
-        <Incubate />
         <UniversityChapters />
         
         
