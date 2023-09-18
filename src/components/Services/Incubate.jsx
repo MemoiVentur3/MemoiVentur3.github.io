@@ -11,8 +11,8 @@ const Incubate = () => {
           {/* <h1 className='font-extrabold  lg:text-5xl md:text-5xl text-4xl text-white'></h1> */}
         </div>
         <div className='mt-2 text-center text-white text-sm'>
-          <p className='text-sm'>Memoi is more than just a developer community.  It's a movement that's propelling toward a more equitable and innovative future.
-Partner with us in making a lasting impact that reaches far beyond the confines of code and algorithms.</p>
+          <p className='text-lg md:text-2xl'>Memoi is more than just a developer community.  It's a movement that's propelling toward a more equitable and innovative future.
+          Partner with us in making a lasting impact that reaches far beyond the confines of code and algorithms.</p>
         </div>
         
       </div>
