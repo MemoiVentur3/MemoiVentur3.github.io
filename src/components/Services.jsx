@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal";
 // icons
 import icon1 from '../assets/Main/University.webp'
 import icon2 from '../assets/Main/HackathonIcon.webp'
-import icon3 from '../assets/Main/BootcampIcon.webp'
+import icon3 from '../assets/Main/bootcampicon.webp'
 import viewMore from '../assets/Buttons/View More SertviceButton.webp'
 import { Link } from 'react-router-dom';
 // mui
