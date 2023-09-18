@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-scroll';
 // images
-import img from '../assets/Main/HeroImage.webp'
+import img from '../assets/Main/Hero.webp'
 import devbtn from '../assets/Buttons/Dev.png'
 import partnersbtn from '../assets/Buttons/partners.png'
 
