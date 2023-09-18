@@ -217,7 +217,7 @@ body::-webkit-scrollbar-thumb{
     background: linear-gradient(#1e3b8aaf, #130395), url("./assets/Main/ObjectivePlaceholder.webp") center/cover, #130395;
 }
 .hero-img-holder{
-    background: url("./assets/Main/HeroImage.webp") right/cover;
+    background: url("./assets/Main/Hero.webp") right/cover;
 }
 .bg-main{
     background: url("./assets/Main/BG\ 1.webp") center/cover;
