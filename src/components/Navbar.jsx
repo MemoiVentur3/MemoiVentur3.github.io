@@ -28,12 +28,12 @@ export default function Navbar() {
           {/* logo */}
           <Link to='/' className='flex items-center gap-2 font-bold '>
             <img className='w-[50px]' src={Logo} alt="" />
-            <p className='text-2xl'>Memoi</p>
+           {/* <p className='text-2xl'>Memoi</p> */}
           </Link>
           <div className='flex gap-8'>
             {navigation.map((item) => (
               <Link key={item.id} to={item.id} className=" text-sm hover:text-[#7394dc] cursor-pointer">
-              {/*  <p className='pages-font'>{item.name}</p> */}
+              <p className='pages-font'>{item.name}</p>
               </Link>
             ))}
           </div>
