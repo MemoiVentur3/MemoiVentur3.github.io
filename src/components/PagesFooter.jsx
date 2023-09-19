@@ -45,11 +45,11 @@ const PagesFooter = () => {
                 </div>
                 {/* social media icons */}
                 <div className='flex items-center gap-3 float-right right-0'>
-                    <img className='w-[40px] cursor-pointer object-cover' src={twitter} alt="" />
-                    <img className='w-[40px] cursor-pointer object-cover' src={discord} alt="" />
-                    <img className='w-[40px] cursor-pointer object-cover' src={linkedin} alt="" />
-                    <img className='w-[40px] cursor-pointer object-cover' src={whatsapp} alt="" />
-                    <img className='w-[40px] cursor-pointer object-cover' src={mail} alt="" />
+                     <a href='https://twitter.com/memoians' target='blank' ><img className='w-[40px] cursor-pointer object-cover' src={twitter} alt="" /></a>
+                    <a target='blank' href='https://t.me/Memoiafrica'><IconButton className='w-[40px] cursor-pointer object-cover' sx={{ width : '40px', background : '#4863ac' }}><Telegram sx={{ color : 'white' }} /></IconButton></a>
+                    <a target='blank' href='https://www.linkedin.com/company/memoi/'><img className='w-[40px] cursor-pointer object-cover' src={linkedin} alt="" /></a>
+                    <a target='blank' href='https://nas.io/memoi-africa'><img className='w-[40px] cursor-pointer object-cover' src={whatsapp} alt="" /></a>
+                    <a target='blank' href='https://tr.ee/Q9fdkg-XRb'><img className='w-[40px] cursor-pointer object-cover' src={mail} alt="" /></a>
                 </div>
             </div>
             <hr />

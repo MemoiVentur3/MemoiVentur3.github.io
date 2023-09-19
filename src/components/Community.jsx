@@ -14,7 +14,7 @@ const Community = () => {
                     <img src={img1} className='img h-[400px] lg:w-[80%] lg:mb-16 rounded-3xl' alt="" />
                     <h1 className='font-extrabold  lg:text-6xl md:text-5xl text-4xl'>Community</h1>
                     <p className='text-center ease-in duration-300  text-white text-sm'>We are building a community of 100,000 developers in Africa who want to learn, build, and get jobs. Join our network of developers & hack to win prizes, explore courses, get access to jobs and life-changing opportunities.</p>
-                    <a href='hhtps://nas.io/memoi-africa'>
+                    <a href='https://nas.io/memoi-africa'>
                     <img src={communityBtn} className='cursor-pointer w-[250px]' alt="" />
                     </a>
                     {/* <Button variant='contained' className='contained-lg-btn '>Join Community</Button> */}
