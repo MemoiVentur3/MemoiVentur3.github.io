@@ -56,7 +56,7 @@ const Services = () => {
                     </Fade>
                 </div>
             </div>
-            <Link to='/service'>
+            <Link to='/our-services'>
                 <img src={viewMore} className='lg:mt-16 mt-8 cursor-pointer w-[250px]' alt="" />
             </Link>
             {/* <Button className='outlined-lg-btn lg:mt-16 mt-8'>View More Services</Button> */}
