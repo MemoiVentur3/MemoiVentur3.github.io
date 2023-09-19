@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import { TextField, Button } from '@mui/material'
 import subscribeBtn from '../assets/Buttons/Footer Submit Button.webp'
 
-import Logo from '../assets/Buttons/logo.png'
+import Logo from '../assets/Main/Memoi.png'
 
 const Footer = () => {
     return (

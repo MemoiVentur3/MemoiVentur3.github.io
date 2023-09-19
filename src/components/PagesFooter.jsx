@@ -11,7 +11,7 @@ import discord from '../assets/Buttons/DC.webp'
 import linkedin from '../assets/Buttons/LinkedIn.webp'
 import whatsapp from '../assets/Buttons/WA.webp'
 import mail from '../assets/Buttons/Mail.webp'
-import Logo from '../assets/Buttons/logo.png'
+import Logo from '../assets/Main/Memoi.png'
 
 const PagesFooter = () => {
     return (
