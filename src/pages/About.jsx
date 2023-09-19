@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import { Navbar, CTA, Objective, HowItWorks, Team, FAQs } from '../components'
+import { Navbar, CTA, Objective, HowItWorks, Team } from '../components'
 import PagesFooter from '../components/PagesFooter';
 
 const AboutPage = () => {
@@ -25,7 +25,6 @@ const AboutPage = () => {
             <Objective />
             <Team />
             <CTA/>
-            <FAQs />
             <PagesFooter />
           </div>
         </>

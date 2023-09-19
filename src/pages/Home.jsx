@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 // components
-import { Navbar, Hero, About, Community, Services, JoinUs, Footer, Objective, HowItWorks, Team, FAQs, Blog, Contact, Location } from '../components'
+import { Navbar, Hero, About, Community, Services, JoinUs, Footer, Objective, HowItWorks, Team, Blog, Contact, Location } from '../components'
 import AllServices from "../components/Services/AllServices";
 
 import '../App.css'

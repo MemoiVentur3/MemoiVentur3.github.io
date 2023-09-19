@@ -39,7 +39,6 @@ const PagesFooter = () => {
                     </div>
                     <div className='flex flex-col items-start gap-3'>
                         <h1 className=' text-xl '>Support</h1>
-                        <Link to='#faq'><p className=' cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>FAQs</p></Link>
                         <Link to='/contact'><p className=' cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Contact</p></Link>
 
                     </div>

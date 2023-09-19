@@ -37,8 +37,9 @@ const Footer = () => {
                     </div>
                     <div className='flex flex-col gap-3'>
                         <h1 className='text-xl'>Support</h1>
-                        <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>FAQs</p>
+                        <a href='/contact'>
                         <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Contact</p>
+                        </a>
                     </div>
                 </div>
                 <div className='col col-span-1 flex flex-col gap-1 text-white text-sm mt-4 lg:mt-0 lg:mb-0 mb-4'>

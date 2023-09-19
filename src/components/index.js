@@ -1,7 +1,6 @@
 // main components
 export { default as About } from './About'
 export { default as Community } from './Community'
-export { default as FAQs } from './FAQs'
 export { default as Footer } from './Footer'
 export { default as Hero } from './Hero'
 export { default as HowItWorks } from './HowItWorks'
