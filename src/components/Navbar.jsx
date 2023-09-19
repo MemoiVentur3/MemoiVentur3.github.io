@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { FaBars } from 'react-icons/fa'
 import { BsX } from 'react-icons/bs'
 import contactBtn from '../assets/Buttons/Contact Us.png'
-import Logo from '../assets/Buttons/logo.png'
+import Logo from '../assets/Main/Memoi.png'
 
 // mui
 import { Button } from '@mui/material'
@@ -33,7 +33,7 @@ export default function Navbar() {
           <div className='flex gap-8'>
             {navigation.map((item) => (
               <Link key={item.id} to={item.id} className=" text-sm hover:text-[#7394dc] cursor-pointer">
-                <p className='pages-font'>{item.name}</p>
+              {/*  <p className='pages-font'>{item.name}</p> */}
               </Link>
             ))}
           </div>
@@ -48,7 +48,7 @@ export default function Navbar() {
           {/* mobile logo */}
           <Link to='/' className='flex items-center gap-2 font-bold '>
             <img className='w-[30px]' src={Logo} alt="" />
-            <p className='text-xl'>Memoi</p>
+          {/*  <p className='text-xl'>Memoi</p> */}
           </Link>
           
           {mobileMenuOpen === (true) ? (
