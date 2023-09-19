@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 
 // images
 // import img1 from '../assets/Real-Estate-2 (1).webp'
-import img2 from '../assets//Main/AboutImage.webp'
+import img2 from '../assets//Main/AboutImage.png'
 
 const About = () => {
   return (
