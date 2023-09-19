@@ -40,7 +40,7 @@ const Hero = () => {
                            <Button variant='outlined hero-btn'><a href='https://nas.io/memoi-africa' target="_blank" rel="noopener noreferrer"> For Developers <ArrowForward />
                            </a></Button>
                            
-                            <Button variant='outlined hero-btn'><a href='/Service'>For Companies <ArrowForward /> </a></Button>
+                            <Button variant='outlined hero-btn'><a href='/our-services'>For Companies <ArrowForward /> </a></Button>
                         </div>
                         {/* image buttons */}
                         {/* <div className='flex items-start w-[50%]'>
