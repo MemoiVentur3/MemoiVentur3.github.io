@@ -26,8 +26,9 @@ export default function Navbar() {
       <div className='container mx-auto text-white px-[16px] '>
         <div className='py-2 justify-between items-center hidden md:flex'>
           {/* logo */}
-          <Link to='/'>
+          <Link to='/' className='flex items-center gap-2 font-bold '>
             <img className='w-[50px]' src={Logo} alt="" />
+            <p className='text-2xl'>Memoi</p>
           </Link>
           <div className='flex gap-8'>
             {navigation.map((item) => (
@@ -45,8 +46,9 @@ export default function Navbar() {
 
         <div className='md:hidden py-4 justify-between flex items-center'>
           {/* mobile logo */}
-          <Link to='/'>
+          <Link to='/' className='flex items-center gap-2 font-bold '>
             <img className='w-[30px]' src={Logo} alt="" />
+            <p className='text-xl'>Memoi</p>
           </Link>
           
           {mobileMenuOpen === (true) ? (

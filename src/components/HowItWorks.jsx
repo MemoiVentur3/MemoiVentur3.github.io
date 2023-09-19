@@ -1,7 +1,7 @@
 import React from 'react'
 import { Fade } from "react-awesome-reveal";
 import img from '../assets/Main/How it works.webp'
-import img2 from '../assets//Main/AboutImage.webp'
+import img2 from '../assets//Main/AboutImage.png'
 // mui
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';

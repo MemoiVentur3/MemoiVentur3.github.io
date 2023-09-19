@@ -1,6 +1,6 @@
 import React from 'react'
 import UniversityData from './Data/UniversityData'
-import uniImage from '../../assets/Main/UniversityChapters.webp'
+import uniImage from '../../assets/Main/IMG-20230914-WA0075.jpg'
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation, Autoplay } from "swiper";

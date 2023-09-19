@@ -10,7 +10,7 @@ const Hackathon = () => {
       <div className='flex flex-col '>
         <div className='flex flex-col'>
           <div className='flex lg:flex-row flex-col lg:gap-4'>
-            <h1 className='font-extrabold  lg:text-5xl md:text-5xl text-4xl text-[#130395]'>Hackathon/Bootcathons</h1>
+            <h1 className='font-extrabold  lg:text-5xl md:text-5xl text-3xl text-[#130395]'>Hackathon/Bootcathons</h1>
             {/* <h1 className='font-extrabold  lg:text-5xl md:text-5xl text-4xl text-[#130395]'>as a Service</h1> */}
           </div>
           {/* <h1 className=' font-semibold lg:text-5xl md:text-4xl text-3xl text-[#130395]'>(HaaS)</h1> */}

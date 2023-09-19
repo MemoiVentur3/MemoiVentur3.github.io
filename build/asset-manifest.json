@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.8e7d6702.css",
-    "main.js": "/static/js/main.c0a1ecfa.js",
+    "main.css": "/static/css/main.3612d198.css",
+    "main.js": "/static/js/main.541cbe12.js",
+    "static/media/hero.png": "/static/media/hero.1a054a819b29eb26ec31.png",
     "static/media/blog6.webp": "/static/media/blog6.87331c0c02d4751653b8.webp",
     "static/media/blog9.webp": "/static/media/blog9.78a77330e27e350a2019.webp",
     "static/media/blog2.webp": "/static/media/blog2.48b9c8af8d5f080014fe.webp",
@@ -15,7 +16,6 @@
     "static/media/FreeSansBold.otf": "/static/media/FreeSansBold.fde643d7ca5df74f9054.otf",
     "static/media/FreeSansBold.ttf": "/static/media/FreeSansBold.974eea1b945ddbbafb86.ttf",
     "static/media/ObjectivePlaceholder.webp": "/static/media/ObjectivePlaceholder.1a09c2dd962bd648fe3f.webp",
-    "static/media/HeroImage.webp": "/static/media/HeroImage.ecdbaeb97ba87dbaf305.webp",
     "static/media/AboutImage.webp": "/static/media/AboutImage.bec21905c918d91a877b.webp",
     "static/media/Ubuntu-Bold.ttf": "/static/media/Ubuntu-Bold.fec2d0f1431a6114a6ce.ttf",
     "static/media/Community Photo (1).webp": "/static/media/Community Photo (1).b80e4bd27f538aedc24f.webp",
@@ -30,6 +30,7 @@
     "static/media/DefiDevrel.webp": "/static/media/DefiDevrel.782bf07124dd0a72d4d5.webp",
     "static/media/Bootckathon.webp": "/static/media/Bootckathon.a149bdb877797591da81.webp",
     "static/media/Incubator.webp": "/static/media/Incubator.fc65bdb0844029065a21.webp",
+    "static/media/bootcampicon.webp": "/static/media/bootcampicon.0b3b18f7239b05e23942.webp",
     "static/media/MemoiBanner.webp": "/static/media/MemoiBanner.1542cf32772baf24cea5.webp",
     "static/media/Dev.png": "/static/media/Dev.dad1307526b43984a972.png",
     "static/media/partners.png": "/static/media/partners.640f6243c6b61b3b3207.png",
@@ -41,7 +42,6 @@
     "static/media/partner3.webp": "/static/media/partner3.0d8edee7dffc55c64735.webp",
     "static/media/partner5.webp": "/static/media/partner5.63c2893cb417bd8d2658.webp",
     "static/media/partner2.webp": "/static/media/partner2.12d43609e5a9da4bba42.webp",
-    "static/media/BootcampIcon.webp": "/static/media/BootcampIcon.2bce6a25a5ec109bedc7.webp",
     "static/media/HackathonIcon.webp": "/static/media/HackathonIcon.de028d5d3c17d676f8e2.webp",
     "static/media/University.webp": "/static/media/University.9b66c8e62d79fb086607.webp",
     "static/media/View More SertviceButton.webp": "/static/media/View More SertviceButton.8ed2c093ce4ab918951d.webp",
@@ -53,11 +53,11 @@
     "static/media/LinkedIn.webp": "/static/media/LinkedIn.0c0e401e9d7a29900947.webp",
     "static/media/Footer Submit Button.webp": "/static/media/Footer Submit Button.d5d626bf0b64781a0baa.webp",
     "index.html": "/index.html",
-    "main.8e7d6702.css.map": "/static/css/main.8e7d6702.css.map",
-    "main.c0a1ecfa.js.map": "/static/js/main.c0a1ecfa.js.map"
+    "main.3612d198.css.map": "/static/css/main.3612d198.css.map",
+    "main.541cbe12.js.map": "/static/js/main.541cbe12.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e7d6702.css",
-    "static/js/main.c0a1ecfa.js"
+    "static/css/main.3612d198.css",
+    "static/js/main.541cbe12.js"
   ]
 }
