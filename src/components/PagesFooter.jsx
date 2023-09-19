@@ -2,7 +2,7 @@ import React from 'react'
 import { TextField, Button } from '@mui/material'
 // mui
 import { IconButton } from '@mui/material'
-import { Twitter, Mail, WhatsApp, LinkedIn } from '@mui/icons-material'
+import { Twitter, Telegram, Mail, WhatsApp, LinkedIn } from '@mui/icons-material'
 import { BsDiscord } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
 
