@@ -36,7 +36,7 @@ const Contact = () => {
             <div className='lg:w-[70%]'>
                 <div className='flex flex-col items-center text-center mb-6'>
                     <Fade top><h1 className='font-semibold lg:text-5xl md:text-4xl text-3xl text-white'>Have a Project</h1></Fade>
-                    <Fade bottom><h1 className='font-semibold lg:text-5xl md:text-4xl text-3xl text-white'>in mind ?</h1></Fade>
+                    <Fade bottom><h1 className='font-semibold lg:text-5xl md:text-4xl text-3xl text-white'>in mind?</h1></Fade>
                 </div>
                 <div className=' text-center text-white text-sm'>
                     <p className=''>Ready to turn your idea into reality? Whether it's a tech startup, an innovative app, or a game-changing solution, we're here to support you. Fill out the form below to share your project details with us. Our team is excited to learn more about your vision and explore how MEMOI AFRICA can help bring your project to life. Let's embark on this journey of innovation together!</p>
