@@ -27,7 +27,7 @@ export default function Navbar() {
         <div className='py-2 justify-between items-center hidden md:flex'>
           {/* logo */}
           <Link to='/' className='flex items-center gap-2 font-bold '>
-            <img className='w-[50px]' src={Logo} alt="" />
+            <img className='w-[100px]' src={Logo} alt="" />
            {/* <p className='text-2xl'>Memoi</p> */}
           </Link>
           <div className='flex gap-8'>
@@ -47,7 +47,7 @@ export default function Navbar() {
         <div className='md:hidden py-4 justify-between flex items-center'>
           {/* mobile logo */}
           <Link to='/' className='flex items-center gap-2 font-bold '>
-            <img className='w-[30px]' src={Logo} alt="" />
+            <img className='w-[50px]' src={Logo} alt="" />
           {/*  <p className='text-xl'>Memoi</p> */}
           </Link>
           
