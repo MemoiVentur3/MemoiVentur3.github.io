@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import Fade from 'react-reveal/Fade';
 
 import { Button } from '@mui/material';
@@ -7,6 +8,29 @@ import img from '../assets/Main/MemoiBanner.webp'
 // import submitBtn from '../assets/Buttons/'
 
 const Contact = () => {
+    const form = useRef();
+
+  // const success = <p>thank you for sending us a message</p>;
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
+          alert(`message sent successfully... ${result.text}`);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
     return (
         <div className=" w-[100%] flex items-center flex-col relative justify-center p-4 py-8 bg-main text-white" id='Contact'>
             <div className='lg:w-[70%]'>
@@ -29,7 +53,7 @@ const Contact = () => {
                             <h1 className='lg:text-4xl text-3xl font-semibold'>Form</h1>
                             <p className='pages-font text-sm text-white'>Please provide us with some information about your project. This will help us understand your vision and how MEMOI AFRICA can assist you in achieving your goals. We're eager to collaborate with you and contribute to the success of your project.</p>
                         </div>
-                        <form action="" className='pages-font flex flex-col items-start  gap-2 p-4'>
+                        <form ref={form} onSubmit={sendEmail} className='pages-font flex flex-col items-start  gap-2 p-4'>
                             <TextField className='inp w-[100%]' name="from_name" id="from_name" placeholder="Name" variant="standard" InputProps={{ disableUnderline: true }} sx={{ input: { color: 'white' } }} />
                             <TextField type='email' className='inp w-[100%]' name="email" id="email" placeholder="Email" variant="standard" InputProps={{ disableUnderline: true }} sx={{ input: { color: 'white' } }} />
                             <div className='grid lg:grid-cols-2 gap-2 w-[100%]'>
