@@ -30,14 +30,14 @@ const Contact = () => {
                             <p className='pages-font text-sm text-white'>Please provide us with some information about your project. This will help us understand your vision and how MEMOI AFRICA can assist you in achieving your goals. We're eager to collaborate with you and contribute to the success of your project.</p>
                         </div>
                         <form action="" className='pages-font flex flex-col items-start  gap-2 p-4'>
-                            <TextField className='inp w-[100%]' id="filled-basic" placeholder="Name" variant="standard" InputProps={{ disableUnderline: true }} sx={{ input: { color: 'white' } }} />
-                            <TextField type='email' className='inp w-[100%]' id="filled-basic" placeholder="Email" variant="standard" InputProps={{ disableUnderline: true }} sx={{ input: { color: 'white' } }} />
+                            <TextField className='inp w-[100%]' name="from_name" id="from_name" placeholder="Name" variant="standard" InputProps={{ disableUnderline: true }} sx={{ input: { color: 'white' } }} />
+                            <TextField type='email' className='inp w-[100%]' name="email" id="email" placeholder="Email" variant="standard" InputProps={{ disableUnderline: true }} sx={{ input: { color: 'white' } }} />
                             <div className='grid lg:grid-cols-2 gap-2 w-[100%]'>
-                                <TextField className='inp' id="filled-basic" placeholder="Company(optional)" variant="standard" InputProps={{ disableUnderline: true }} sx={{ input: { color: 'white' } }} />
-                                <TextField className='inp overflow-hidden' id="filled-basic" placeholder="Phone Number" variant="standard" InputProps={{ disableUnderline: true }} sx={{ input: { color: 'white' } }} />
+                                <TextField className='inp' name="company" id="company" placeholder="Company(optional)" variant="standard" InputProps={{ disableUnderline: true }} sx={{ input: { color: 'white' } }} />
+                                <TextField className='inp overflow-hidden' name="number" id="number" placeholder="Phone Number" variant="standard" InputProps={{ disableUnderline: true }} sx={{ input: { color: 'white' } }} />
                             </div>
                             <TextField
-                                id="filled-multiline-static"
+                                name="message" id="message"
                                 InputProps={{ disableUnderline: true }}
                                 sx={{ input: { color: 'white' } }}
                                 inputProps={{ style: { color: "white" } }}
@@ -47,7 +47,7 @@ const Contact = () => {
                                 variant="standard"
                                 placeholder="Tell us about your self"
                             />
-                            <Button type='submit' variant='contained' className='contained-lg-btn' >Submit</Button>
+                            <Button type="submit" id="button" value="Send Email" variant='contained' className='contained-lg-btn' >Submit</Button>
                         </form>
                     </div>
                 </div>
