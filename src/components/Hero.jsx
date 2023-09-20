@@ -50,7 +50,7 @@ const Hero = () => {
                     </div>
                     {/* hero image */}
                     <Zoom right>
-                        <div className='hidden lg:block  hero-img-holder h-[450px] w-[450px]'></div>
+                        <div className='hidden lg:block  hero-img-holder h-[350px] w-[350px]'></div>
                         {/* <img className='rounded-xl hidden lg:block w-[100%] ' src={img} alt="" /> */}
                     </Zoom>
                 </div>

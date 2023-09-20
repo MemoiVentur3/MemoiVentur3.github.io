@@ -24,7 +24,7 @@ const Services = () => {
                 {/* services cards */}
                 <div className='flex lg:flex-row flex-col items-center justify-center gap-3 mt-4 lg:pb-8 pb-0'>
                     <Fade cascade damping={0.2}>
-                          <div className='p-4 flex flex-col items-center text-center text-[#130395] border hover:shadow-black/40 shadow-xl h-[500px] w-[300px] rounded-3xl ease-out duration-300'>
+                        <div className='p-4 flex flex-col items-center text-center text-[#130395] border lg:translate-y-18 hover:shadow-black/40 shadow-xl h-[500px] w-[300px] rounded-3xl ease-out duration-300'>
                             {/* icon */}
                             <img className='mb-2 h-[100px] w-[200px] object-cover' src={icon3} alt="" />
                             <h1 className='font-extrabold text-2xl'>BOOTCKATHON</h1>
@@ -33,7 +33,7 @@ const Services = () => {
                                 Memoi hosts dynamic hackathons with top partners, uniting diverse developers and innovators. Together, they tackle real-world challenges in a competitive, high-energy setting. Memoi handles everything, from participant recruitment to logistics, for both online and offline programs across Africa.
                             </p>
                         </div>
-                        <div className='p-4 flex flex-col items-center text-center text-[#130395] border lg:translate-y-18 hover:shadow-black/40 shadow-xl h-[500px] w-[300px] rounded-3xl ease-out duration-300'>
+                        <div className='p-4 flex flex-col items-center text-center text-[#130395] border lg:translate-y-14 hover:shadow-black/40 shadow-xl h-[500px] w-[300px] rounded-3xl ease-out duration-300'>
                             {/* icon */}
                             <img className='mb-2 h-[100px] w-[100px] object-cover' src={icon1} alt="" />
                             <h1 className='font-extrabold text-2xl'>UNIVERSITY CHAPTERS</h1>
@@ -45,14 +45,14 @@ const Services = () => {
                             <h1 className='font-extrabold text-2xl'>Memoi Talent</h1>
                             <p className='mt-2 ease-in duration-300 text-[#130395] text-sm font-semibold'>Hire from the highest quality talent network in Africa.  Gain direct access to 1000+ technical African talents on demand to work full-time/part-time on a milestone basis  Effortlessly find the right tech talent for your projects with Memoi Talent.</p>
                         </div>
-                        <div className='p-4 flex flex-col items-center text-center text-[#130395] border lg:translate-y-14 hover:shadow-black/40 shadow-xl h-[500px] w-[300px] rounded-3xl ease-out duration-300'>
+                        <div className='p-4 flex flex-col items-center text-center text-[#130395] border hover:shadow-black/40 shadow-xl h-[500px] w-[300px] rounded-3xl ease-out duration-300'>
                             {/* icon */}
                             <img className='mb-2 h-[100px] w-[100px] object-cover' src={icon1} alt="" />
                             <h1 className='font-extrabold text-2xl'>Memoi University</h1>
                             <p className='mt-2 ease-in duration-300 text-[#130395] text-sm font-semibold'>Memoi University offers intensive bootcamps, courses, and workshops focused on blockchain, led by industry experts. Whether you're a beginner or an experienced developer, our programs provide practical knowledge and hands-on experience with the latest technologies. We empower developers to excel in the ever-evolving tech landscape.
                             </p>
                         </div>
-                   
+
                     </Fade>
                 </div>
             </div>
