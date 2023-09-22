@@ -4,4 +4,4 @@ export { default as Error } from './Error'
 export { default as BlogPage } from './BlogPage'
 export { default as ContactPage } from './ContactPage'
 export { default as ServicePage } from './ServicesPage'
-
+export { default as ComingSoon } from './ComingSoon'

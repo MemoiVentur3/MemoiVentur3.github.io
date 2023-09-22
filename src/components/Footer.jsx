@@ -14,26 +14,37 @@ const Footer = () => {
                 <div className='col-span-2 grid lg:grid-cols-3 grid-cols-2 justify-center gap-3 text-white'>
                     <div className='flex flex-col gap-3'>
                         <h1 className=' text-xl'>About Us</h1>
+                        <a href='/about-us'>
                         <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Mission</p>
                         <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Vision</p>
-                        <a href='/about#Team'>
+                        
                         <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Team</p>
                         </a>
                     </div>
                     <div className='flex flex-col gap-3'>
                         <h1 className='text-xl'>Discover</h1>
+                        <a href="/blog">
                         <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Blog</p>
+                        </a>
                         <a href='/services'>
                         <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Services</p>
                         </a>
-                        <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Knowledge</p>
+                   
                     </div>
                     <div className='flex flex-col gap-3'>
                         <h1 className='text-xl'>Opportunities</h1>
+                        <a href='/coming-soon'>
                         <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Jobs</p>
+                        </a>
+                         <a href='/coming-soon'>
                         <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Events</p>
+                        </a>
+                         <a href='#partners'>
                         <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Partners</p>
+                        </a>
+                         <a href='/coming-soon'>
                         <p className='cursor-pointer ease-in duration-300 hover:text-white text-white text-sm'>Projects</p>
+                        </a>
                     </div>
                     <div className='flex flex-col gap-3'>
                         <h1 className='text-xl'>Support</h1>

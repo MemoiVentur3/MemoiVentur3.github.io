@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 // pages
-import { Home,Error, AboutPage, ServicePage, BlogPage, ContactPage } from './pages'
+import { Home, Error, AboutPage, ServicePage, BlogPage, ContactPage, ComingSoon } from './pages'
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="*" element={<Error/>} />
+          <Route path="/coming-soon" element={<ComingSoon/>} />
         </Routes>
       </Router>
     </div>
